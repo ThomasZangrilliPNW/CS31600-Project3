@@ -20,7 +20,7 @@ fn main() {
     match direction {
         Direction::North => println!("Going north"),
         Direction::South => println!("Going south"),
-    Direction::East  => println!("Going east"),
+        Direction::East  => println!("Going east"),
         // West is missing, but _ catches it instead of a compiler error
         _ => println!("Unhandled direction!"),
     }

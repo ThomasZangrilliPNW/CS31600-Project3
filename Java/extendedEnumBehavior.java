@@ -1,3 +1,4 @@
+
 public class extendedEnumBehavior
 {
     public enum MessageType {
